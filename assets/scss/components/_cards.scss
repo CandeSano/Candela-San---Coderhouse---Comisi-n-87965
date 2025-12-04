@@ -1,0 +1,9 @@
+.bloque-productos,
+.bloque-servicio,
+.bloque-nosotros {
+  @include card-style;
+
+  h3 {
+    @include heading-style($color-primario-borde, 800, 1.4rem);
+  }
+}

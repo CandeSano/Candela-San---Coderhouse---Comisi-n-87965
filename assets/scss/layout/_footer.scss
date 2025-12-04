@@ -1,0 +1,13 @@
+footer {
+  background: $color-primario;
+  color: $color-blanco;
+  border-radius: $radius-md;
+  padding: 1.6rem;
+  text-align: center;
+  border: 2px solid $color-primario-borde;
+  box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.12);
+
+  img {
+    width: 48px;
+  }
+}

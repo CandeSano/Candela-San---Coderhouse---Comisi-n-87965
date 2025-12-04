@@ -1,0 +1,20 @@
+.section-hero {
+  
+  .hero-img {
+    max-width: 380px;
+    margin: auto;
+    @include framed-image($color-secundario, lighten($color-secundario, 25%));
+  }
+
+  @include respond(mobile) {
+    text-align: center;
+  }
+}
+
+.section-destacados {
+  margin-top: 2rem;
+
+  h2 {
+    margin-bottom: .5rem;
+  }
+}

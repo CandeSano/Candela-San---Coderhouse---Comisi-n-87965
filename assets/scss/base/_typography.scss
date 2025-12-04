@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+  color: $color-texto;
+}
+
+h1 {
+  font-weight: 800;
+  color: $color-blanco;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: .75rem;
+
+  @include respond(mobile) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  @include heading-style($color-primario-borde, 800, 1.4rem);
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+
+  @include respond(mobile) {
+    font-size: .95rem;
+  }
+}
+
+figcaption {
+  margin-top: 8px;
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: .9rem;
+}

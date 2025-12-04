@@ -1,0 +1,11 @@
+.section-catalogo {
+  margin-bottom: 2rem;
+
+  p {
+    margin-bottom: .75rem;
+  }
+}
+
+.section-catalogo + .row {
+  margin-top: 1rem;
+}

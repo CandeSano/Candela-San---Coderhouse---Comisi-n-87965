@@ -1,0 +1,19 @@
+.btn-primary {
+  background-color: $color-primario !important;
+  border-color: $color-primario-borde !important;
+
+  &:hover {
+    background-color: $color-primario-borde !important;
+    border-color: $color-primario !important;
+  }
+}
+
+.card {
+  border-radius: $radius-lg !important;
+  box-shadow: $shadow-soft !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: $color-blanco !important;
+  color: $color-primario !important;
+}

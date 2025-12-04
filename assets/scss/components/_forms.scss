@@ -1,0 +1,43 @@
+form.contacto {
+  background: $color-blanco;
+  border-radius: $radius-lg;
+  border: 3px solid $color-secundario;
+  padding: 1.4rem;
+  box-shadow: $shadow-soft;
+
+  fieldset {
+    border: 2px solid $color-secundario-borde;
+    border-radius: $radius-sm;
+    padding: 1rem;
+    background: $color-fondo;
+
+    legend {
+      font-weight: 700;
+      color: $color-primario-borde;
+    }
+
+    label {
+      display: block;
+      margin-bottom: .25rem;
+      font-weight: 600;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: .85rem 1rem;
+      border: 2px solid $color-secundario-borde;
+      border-radius: $radius-sm;
+      background: $color-blanco;
+      font-size: 1rem;
+      margin-bottom: .85rem;
+
+      &:focus {
+        border-color: $color-primario;
+        outline: none;
+        box-shadow: 0 0 0 3px opacity($color-primario, .35);
+      }
+    }
+  }
+}

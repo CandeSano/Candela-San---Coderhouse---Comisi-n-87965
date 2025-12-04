@@ -1,0 +1,44 @@
+::selection {
+  background: $color-primario;
+  color: $color-blanco;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: lighten($color-primario, 40%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-primario;
+  border-radius: $radius-sm;
+
+  &:hover {
+    background: $color-primario-borde;
+  }
+}
+
+a {
+  transition: .25s ease;
+
+  &:hover {
+    color: $color-primario-borde;
+  }
+}
+
+.fade-in {
+  animation: fadeIn .6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

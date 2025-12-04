@@ -1,0 +1,11 @@
+@function opacity($color, $alpha) {
+  @return rgba($color, $alpha);
+}
+
+@function scale($value, $factor) {
+  @return $value * $factor;
+}
+
+@function rem($px) {
+  @return #{$px / 16}rem;
+}

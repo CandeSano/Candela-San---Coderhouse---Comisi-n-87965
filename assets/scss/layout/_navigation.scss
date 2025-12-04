@@ -1,0 +1,28 @@
+.main-nav {
+  ul {
+    gap: .25rem;
+
+    li {
+      .nav-link {
+        padding: .3rem .65rem;
+        font-size: .78rem;
+        border-radius: 999px;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.18);
+        color: $color-blanco;
+        border: 2px solid transparent;
+        white-space: nowrap;
+
+        &:hover {
+          border-color: $color-blanco;
+        }
+
+        &.active {
+          background: $color-blanco;
+          color: $color-primario;
+          border-color: $color-blanco;
+        }
+      }
+    }
+  }
+}

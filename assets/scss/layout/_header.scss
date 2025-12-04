@@ -1,0 +1,43 @@
+header {
+  background: $color-primario;
+  padding: 1.4rem 1.6rem;
+  border-radius: $radius-md;
+  border: 2px solid $color-primario-borde;
+  box-shadow: $shadow-strong;
+
+.header-wrapper {
+  position: relative;
+}
+
+    @media (min-width: $bp-tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .logo img {
+      width: 130px;
+      border-radius: 50%;
+      background: $color-blanco;
+      border: 3px solid $color-primario-borde;
+
+      @include respond(mobile) {
+        width: 105px;
+      }
+    }
+
+    h1 {
+      margin: 0;
+      color: $color-blanco;
+
+      @include respond(mobile) {
+        font-size: 1.5rem;
+      }
+    }
+  }

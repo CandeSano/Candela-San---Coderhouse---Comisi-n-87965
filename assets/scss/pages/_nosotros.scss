@@ -1,0 +1,25 @@
+.page-main {
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .bloque-nosotros {
+    margin-bottom: 2rem;
+
+    figure.fig img {
+      @include framed-image($color-primario, lighten($color-primario, 35%));
+    }
+  }
+}
+
+.section-historia,
+.section-valores,
+.section-equipo,
+.section-compromiso {
+  margin-bottom: 2rem;
+
+  h3 {
+    margin-bottom: .5rem;
+  }
+}
